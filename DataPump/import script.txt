@@ -1,0 +1,1 @@
+host impdp sys/Dhaka_123@orclpdb schemas=ideahameem directory=DATA_PUMP_DIR dumpfile=EXPHAMEEM2022052505.dmp
