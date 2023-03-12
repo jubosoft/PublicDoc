@@ -1,0 +1,3 @@
+alter pluggable database suguna  close IMMEDIATE;
+DROP PLUGGABLE DATABASE suguna INCLUDING DATAFILES;
+
