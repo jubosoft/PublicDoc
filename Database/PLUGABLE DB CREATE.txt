@@ -1,0 +1,22 @@
+-----Create pluggable database----
+CREATE PLUGGABLE DATABASE suguna ADMIN USER SADIQ IDENTIFIED BY SYSTEM11g
+FILE_NAME_CONVERT = ('F:\app\oracle\oradata\ORCL\pdbseed', 'F:\app\oracle\oradata\ORCL\suguna');
+
+sys@suguna as sysdba
+SYSTEM/SYSTEM11g@SUGUNA
+RAW04/RAW0@SUGUNA
+SALES/SALES7@SUGUNA
+
+create user sales identified by SALES7;
+GRANT DBA, RESOURCE, CONNECT TO SALES;
+
+create user RAW04 identified by RAW0;
+GRANT DBA, RESOURCE, CONNECT TO RAW04;
+
+Rancon@987
+
+
+https://mega.nz/file/TZIGTaoZ#1m4snPlfRlG6sLWrBcJNUIc8mugcW4w22b1LJdRhzjU
+
+
+https://mega.nz/file/TQZWWDzb#wS1XLjbg_d77vR0AdGRy2mm-DzOUkA6L-eAeAkCNLuQ
