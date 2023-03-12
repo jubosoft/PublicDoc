@@ -1,0 +1,10 @@
+step 1
+java -jar ords.war --config C:\ords\config install
+
+
+Start next
+java -jar ords.war --config C:\ords\config serve
+
+apache tomcat setup path
+-Dconfig.url=C:\ords\config
+
